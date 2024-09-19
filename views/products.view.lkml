@@ -30,7 +30,7 @@ view: products {
   }
   dimension: name {
     type: string
-    sql: CONCAT("ABC", ${TABLE}.name) ;;
+    sql: CONCAT("___", ${TABLE}.name) ;;
   }
   dimension: retail_price {
     type: number
